@@ -1,6 +1,7 @@
 const path = {
     home: '/',
-    media: '/media'
+    media: '/media',
+    mediaFull: '/full/media'
 };
 
 export default path;
