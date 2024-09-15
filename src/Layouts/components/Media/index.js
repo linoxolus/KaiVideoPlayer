@@ -18,9 +18,10 @@ function Media() {
                         src={`https://short.ink/${slug}`}
                         frameBorder="0"
                         allowFullScreen
-                        width="640"
-                        height="360"
+                        // width="640"
+                        // height="360"
                         title={slug}
+                        className={cx('video-frame')}
                     ></iframe>
                 </div>
             </div>

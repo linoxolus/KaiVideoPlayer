@@ -10,7 +10,7 @@ function Media() {
     // https://api.hydrax.net/cc845a7b8ced936b573c5586d3856e5c/list
     const [medias, setMedias] = useState({ items: [] });
     useEffect(() => {
-        setMedias(require('../../../assets/json/list2.json'));
+        setMedias(require('../../../assets/json/list.json'));
     }, []);
 
     return (
