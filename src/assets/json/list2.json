@@ -1,0 +1,19 @@
+{
+    "items": [
+        {
+            "name": "hob.mp4",
+            "size": 2684228434,
+            "slug": "RHYMm_k2C",
+            "resolution": 1080,
+            "status": "Ready"
+        },
+        {
+            "name": "test_teaser_trash.mp4",
+            "size": 27197520,
+            "slug": "kGuZl_ggO",
+            "resolution": 1080,
+            "status": "Ready"
+        }
+    ],
+    "pagination": { "current": 1, "next": 0 }
+}

@@ -1,0 +1,39 @@
+.wrapper {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.container {
+    --gap: 12px;
+    column-count: 4;
+    column-gap: var(--gap);
+    padding: var(--gap);
+    width: 100vw;
+}
+
+.content {
+    height: 100%;
+    padding-top: 36px;
+}
+
+.media {
+    margin-top: var(--gap);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .container {
+        --gap: 6px;
+        column-count: 2;
+    }
+}

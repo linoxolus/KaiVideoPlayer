@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #FFE5CF;
+    --primary: #557C56;
+    --text-color: #33372C;
+
+    --nav-height: 64px;
+    --base-padding-size: 36px;
+    --padding-size: 12px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    text-rendering: optimizeSpeed;
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
