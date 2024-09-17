@@ -8,7 +8,11 @@ function MediaFull() {
     // https://api.hydrax.net/cc845a7b8ced936b573c5586d3856e5c/list
     const [medias, setMedias] = useState({ items: [] });
     useEffect(() => {
-        setMedias(require('../../../assets/json/list.json'));
+        fetch('http://localhost:2008/list')
+            .then((res) => res.json())
+            .then((res) => {
+                setMedias(res);
+            });
     }, []);
 
     return (

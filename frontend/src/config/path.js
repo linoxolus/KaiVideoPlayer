@@ -1,4 +1,4 @@
-const baseURL = '/react';
+const baseURL = '';
 
 var path = {
     home: '/',
